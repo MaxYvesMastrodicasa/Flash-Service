@@ -1,0 +1,47 @@
+.main_navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px purple;
+    max-height: 6rem;
+    min-height: 5vh;
+    min-width: 100vw;
+    padding: 0.5rem;
+}
+
+.content_navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    min-width: 4rem;
+    border: solid 1px blue;
+}
+
+.title_navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    min-width: 200px;
+    width: 60vw;
+    border: solid 1px blue;
+}
+
+.title_navigation a{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(141, 149, 163);
+}
+
+
+.footer_navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px red;
+    max-height: 2rem;
+    min-height: 2rem;
+    min-width: 100vw;
+}
+
