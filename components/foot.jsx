@@ -1,6 +1,6 @@
 import style from "@/styles/Nav.module.css"
 
-export default function  Footer() {
+function  Footer() {
   return (
     <>
         <div className={style.footer_navigation}>
@@ -9,3 +9,5 @@ export default function  Footer() {
     </>
   );
 }
+
+export default Footer;

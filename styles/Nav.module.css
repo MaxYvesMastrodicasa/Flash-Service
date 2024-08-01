@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid 2px purple;
+    border: solid 2px #001D3D;
+    background-color: #001D3D;
     max-height: 6rem;
     min-height: 5vh;
     min-width: 100vw;
@@ -15,6 +16,7 @@
     align-items: center;
     min-height: 4rem;
     min-width: 4rem;
+    color: white;
     border: solid 1px blue;
 }
 
@@ -31,7 +33,7 @@
 .title_navigation a{
     border-radius: 15px;
     padding: 5px;
-    background-color: rgb(141, 149, 163);
+    color: #FCA311;
 }
 
 

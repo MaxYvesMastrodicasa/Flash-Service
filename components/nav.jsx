@@ -1,6 +1,6 @@
 import style from "@/styles/Nav.module.css";
 
-export default function Navigation() {
+function Navigation() {
   return (
     <>
       <div className={style.main_navigation}>
@@ -13,3 +13,5 @@ export default function Navigation() {
     </>
   );
 }
+
+export default Navigation;
