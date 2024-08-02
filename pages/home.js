@@ -3,16 +3,18 @@ import Navigation from "@/components/nav";
 import Footer from "@/components/foot";
 import Main_module from "@/components/part_module";
 
-function home() {
+function Home(){
   return (
     <>
       <div className={styles.app_container}>
-        <Navigation/>
+      <Navigation/>
+      <main>
         <Main_module/>
-        <Footer/>
-      </div>
+      </main>
+      <Footer/>
+      </div> 
     </>
   );
 }
 
-export default home;
+export default Home;

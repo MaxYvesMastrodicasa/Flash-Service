@@ -12,12 +12,12 @@
 
 .content_navigation{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 4rem;
     min-width: 4rem;
     color: white;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
 }
 
 .title_navigation{
@@ -27,7 +27,7 @@
     min-height: 4rem;
     min-width: 200px;
     width: 60vw;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
 }
 
 .title_navigation a{
@@ -39,9 +39,9 @@
 
 .footer_navigation{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     max-height: 2rem;
     min-height: 2rem;
     min-width: 100vw;

@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  max-height: 100vh;
+  min-height: 100vh;
   background-color: #D9D9D9;
   /* Example background color */
 }

@@ -1,17 +1,20 @@
-import style from "@/styles/Nav.module.css";
+import styles from "@/styles/Nav.module.css";
+import MenuBurger from "./menu_burger";
+import Link from 'next/link';
 
-function Navigation() {
+export default function Navigation() {
   return (
     <>
-      <div className={style.main_navigation}>
-        <div className={style.content_navigation}></div>
-        <div className={style.title_navigation}>
-            <a href="/"><h1>Flash Service</h1></a>
+      <div className={styles.main_navigation}>
+        <div className={styles.content_navigation}></div>
+          <div className={styles.title_navigation}>
+            <a href="/home"><h1>Flash Service</h1></a>
+          </div>
+        <div className={styles.content_navigation}>
+          <MenuBurger/>
         </div>
-        <div className={style.content_navigation}></div>
       </div>
     </>
   );
 }
 
-export default Navigation;
