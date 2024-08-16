@@ -16,17 +16,16 @@
 
 .card {
   width: calc(100vw - 20px);
-  /* Example width */
   height: 60vh;
   padding: 20px;
   background-color: #001D3D;
-  /* Example background color */
   color: white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .form-group {
@@ -48,10 +47,11 @@
 }
 
 .button {
+  display: flex;
+  justify-content: center;
   width: 50%;
   padding: 10px;
   background-color: #FCA311;
-  /* Example background color */
   border: none;
   border-radius: 20px;
   color: white;
@@ -78,4 +78,9 @@
 a.no_underline {
     text-decoration: none;
     cursor: pointer; 
+}
+
+p.Sign_IU{
+  margin-top: 10px;
+  margin-left: 5px;
 }

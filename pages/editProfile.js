@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from '@/styles/EditProfile.module.css';
-import Link from 'next/link';
+import main from '@/styles/Main.module.css'
 import Footer from '@/components/foot';
 import Navigation from '@/components/nav';
 
@@ -34,7 +34,7 @@ export default function EditProfile (){
 //   };
 
   return (
-    <>
+    <div className={main.container}>
     <Navigation/>
     <div className={styles.editProfilePage}>
       <h2 className={styles.title}>Modifier le Profil</h2>
@@ -91,6 +91,6 @@ export default function EditProfile (){
       </form>
     </div>
     <Footer/>
-    </>
+    </div>
   );
 };

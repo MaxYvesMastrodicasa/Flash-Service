@@ -27,17 +27,6 @@
     transform: rotate(-45deg) translate(5px, -5px);
   }
   
-  /* .menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: #D9D9D9;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 10px;
-  } */
   
 .menu {
   position: fixed;
